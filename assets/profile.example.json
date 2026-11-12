@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "brand": {
+    "name": "Example Studio",
+    "audience": "People learning to use our product",
+    "language": "en",
+    "goal": "Help viewers complete one useful task",
+    "voice": "Plain, specific, conversational",
+    "content_types": ["product-demo", "tutorial", "story"],
+    "cta": "Choose a next step appropriate to the content"
+  },
+  "production": {
+    "tools": [],
+    "video_aspect": "9:16",
+    "review_policy": "user_final_approval",
+    "default_duration_seconds": null,
+    "audio_policy": "Preserve important speech; use appropriately permitted music"
+  },
+  "assets": {
+    "cover_width": 1080,
+    "cover_height": 1440,
+    "cover_safe_area": "Keep essential text central; verify each target's actual crop",
+    "caption_max_utf16": 2200,
+    "required_hashtags": []
+  },
+  "publish": {
+    "enabled": false,
+    "authorization_reference": "",
+    "timezone": "UTC",
+    "weekday_time": "12:30",
+    "weekend_time": "19:30",
+    "max_per_day": 1,
+    "platforms": {}
+  },
+  "handoffs": {
+    "mode": "single-chat",
+    "video_destination": null,
+    "assets_destination": null,
+    "publisher_destination": null
+  },
+  "intake": {
+    "enabled": false,
+    "provider": "google-drive",
+    "folder_id": null,
+    "uploads_are_final": false,
+    "check_time": "09:00",
+    "timezone": "UTC"
+  }
+}

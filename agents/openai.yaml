@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Content Workflow"
+  short_description: "Create videos, verify assets, and coordinate publishing"
+  default_prompt: "Use $video-content-workflow to turn my content idea into a verified video, caption, cover, and publishing handoff."
